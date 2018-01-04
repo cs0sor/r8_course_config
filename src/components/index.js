@@ -8,7 +8,10 @@ const Container = (props) =>
     <App {...props}/>
 
 const mapStateToProps = (state, ownProps) => ({
-  aList: state.defaultReducer.aList,
+  qualifications: state.defaultReducer.qualifications,
+  groups: state.defaultReducer.groups,
+  criteria: state.defaultReducer.criteria,
+  units: state.defaultReducer.units,
 })
 
 const mapDispatchToProps = (dispatch) =>
